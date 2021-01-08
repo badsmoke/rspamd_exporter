@@ -1,0 +1,9 @@
+version: '2'
+services:
+  rspamd-exporter:
+    image: badsmoke/rspamd-exporter:1.0.3
+    ports:
+        - 5000:5000
+    environment:
+        - "ENV_URL=https://mail.server.de/rspamd/"
+        - "ENV_PASSWORD=secret_rspamd_password"
