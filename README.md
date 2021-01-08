@@ -4,6 +4,13 @@ prometheus exporter for rspamd spam filter
 inspired by [thannaske](https://github.com/thannaske/rspamd-influxdb) but for prometheus
 
 
+
+## docker image
+
+https://hub.docker.com/repository/docker/badsmoke/rspamd-exporter
+
+
+
 if other architectures are desired, like arm or arm64, just let us know
 
 MAINTAINER badsmoke <dockerhub@badcloud.eu>
